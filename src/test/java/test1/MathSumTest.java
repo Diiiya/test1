@@ -7,7 +7,7 @@ import org.junit.Test;
 public class MathSumTest {
 
 	@Test
-	public void test() {
+	public void testSum() {
 		int expected = 10; 
 		
 		MathSum ms = new MathSum();
@@ -18,11 +18,11 @@ public class MathSumTest {
 	}
 	
 	@Test
-	public void test2() {
-		int expected = 11; 
+	public void testMultiply() {
+		int expected = 12; 
 		
 		MathSum ms = new MathSum();
-		int actual = ms.Sum(2, 8);
+		int actual = ms.Multiply(2, 6);
 		
 		assertEquals(expected, actual);
 		
