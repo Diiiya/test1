@@ -24,7 +24,8 @@ public class MathSumTest {
 		MathSum ms = new MathSum();
 		int actual = ms.Sum(2, 8);
 		
-		assertNotEquals(expected, actual);
+		
+		assertNotSame(expected, actual);
 		
 	}
 	
