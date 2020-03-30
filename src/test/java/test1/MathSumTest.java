@@ -18,6 +18,17 @@ public class MathSumTest {
 	}
 	
 	@Test
+	public void testSum2() {
+		int expected = 18; 
+		
+		MathSum ms = new MathSum();
+		int actual = ms.Sum(2, 8);
+		
+		assertNotEquals(expected, actual);
+		
+	}
+	
+	@Test
 	public void testMultiply() {
 		int expected = 12; 
 		
