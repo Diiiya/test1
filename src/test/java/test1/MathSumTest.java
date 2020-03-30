@@ -16,5 +16,16 @@ public class MathSumTest {
 		assertEquals(expected, actual);
 		
 	}
+	
+	@Test
+	public void test2() {
+		int expected = 11; 
+		
+		MathSum ms = new MathSum();
+		int actual = ms.Sum(2, 8);
+		
+		assertEquals(expected, actual);
+		
+	}
 
 }
